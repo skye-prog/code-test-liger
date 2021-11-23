@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@700&display=swap");
+.score_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  width: 50rem;
+  height: 3rem;
+  background-color: black;
+  transform: skewX(330deg);
+  transform-origin: top;
+  margin: 10px;
+
+  font-weight: bold;
+  padding: 0.1rem 0.1rem;
+}
+img {
+  width: 2rem;
+  height: 1.8rem;
+  filter: contrast(300%) brightness(100%);
+}
+
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #505050;
+  transform: skewX(360deg);
+  transform-origin: top;
+  width: 10rem;
+  height: 2.5rem;
+  padding: 0rem 7rem 0rem 1rem;
+  font-family: "Roboto ", sans-serif;
+  font-size: 0.9rem;
+}
+.score {
+  width: 5rem;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transform: skewX(30deg);
+  font-family: "Roboto ", sans-serif;
+  font-size: 1.7rem;
+  margin: 0;
+}
+.team > * {
+  transform: skewX(30deg);
+}
