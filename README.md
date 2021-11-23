@@ -7,7 +7,7 @@ This is a program which uses ReactJs for frontend and Nodejs for backend.
 ### `node server.js`
 First cd backend folder and run "node server.js" 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:5000) 
+Open [http://localhost:5000](http://localhost:5000) 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
